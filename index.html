@@ -17,15 +17,17 @@
           spellcheck="false"
         />
 
-        <button class="card__search__button">
+        <button onclick="checkCityWeather()" class="card__search__button">
           <img src="images/search.png" alt="search_icon" />
         </button>
       </div>
 
       <div class="card__weather">
-        <img src="images/rain.png" alt="" class="weather__icon" />
+        <div class="icon__container">
+          <img src="images/rain.png" alt="" class="weather__icon" />
+        </div>
 
-        <h1 class="weather__temp">12°C</h1>
+        <h1 class="weather__temp">°C</h1>
         <h2 class="weather__city">Seoul</h2>
 
         <div class="card__weather__details">

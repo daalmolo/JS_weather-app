@@ -46,6 +46,11 @@ body {
   align-self: center;
 }
 
+.icon__container {
+  display: flex;
+  justify-content: center;
+}
+
 .weather__icon {
   width: 170px;
   margin-top: 30px;
